@@ -44,7 +44,7 @@ def send_telegram_message(message):
         return telegram_data["ok"]
     except Exception as e:
         print("An error occurred in sending the alert message via Telegram")
-        print(e)
+        print("e")
         return False
 
 
